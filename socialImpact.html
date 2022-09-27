@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Social Impact - Milka Ivanovska Hadjievska</title>
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="./styles/index.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="navigation">
+                <a href="index.html" class="navigation-tab">ABOUT</a>
+                <a href="research.html" class="navigation-tab">RESEARCH</a>
+                <a href="teaching.html" class="navigation-tab">TEACHING</a>
+                <a href="socialImpact.html" class="navigation-tab active">SOCIAL IMPACT</a>
+                <a href="contact.html" class="navigation-tab">CONTACT</a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-text">
+                <p>
+                    I started my career in think tank organisations in the Western Balkans, where I have gained
+                    experience in policy research and advocacy activities. To date I have co-authored several policy
+                    briefs and reports. I have maintained contacts with key stakeholders working in the area of civil
+                    society development in North Macedonia and the Western Balkans. I have also organised and
+                    participated in several events for stakeholders, presenting academic and policy research for diverse
+                    audiences.
+                </p>
+                <button class="accordion">POLICY AND IMPACT REPORTS</button>
+                <div class="panel">
+                    <p></p>
+                    <ul>
+                        <li>
+                            Ivanovska, Hadjievska Milka (2020). Report on the Governance Practices, Transparency and
+                            Accountability of Civil Society Organizations, Macedonian Centre for International
+                            Cooperation.
+                        </li>
+                        <li>
+                            Ivanovska Hadjievska, Milka, Hristova Zaevska, Olimpija, Gjuzelov, Borjan and Elena B.
+                            Stavrevska. (2018). Digital Tools for Democracy in Macedonia: Overview and Perspectives,
+                            Impact – Institute for Research.
+                        </li>
+                        <li>
+                            Ivanovska Hadjievska, Milka. (2017). FATF Recommendation 8 on Non-profit organisations:
+                            Mapping Key Findings and Recommendations for Countries in the Western Balkans, Balkan Civil
+                            Society Development Network.
+                        </li>
+                        <li>
+                            Ivanovska Hadjievska, Milka and Tanja Hafner Ademi. (2015). Enabling Environment for Civil
+                            Society Development in the Black Sea Region: Towards a Regional Strategy for Cooperation,
+                            FOND Romania.
+                        </li>
+                        <li>
+                            Ivanovska, Milka. (2015). Ways of Non-Financial Gains for CSOs in the Balkans and Turkey,
+                            Balkan Civil Society Development Network.
+                        </li>
+                        <li>
+                            Hristova, Olimpija and Milka Ivanovska. (2013). Towards the Improvement of Political Science
+                            and Law Students’ Research Competences in Macedonia, Research in Social Sciences, in Slavica
+                            Indzevska and Aleksandra Dimova Mancevska (eds.), Macedonia: State-of-Affairs, Challenges
+                            and Recommendations for Public Policy Improvements, Open Society Foundation.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="expand"></div>
+        </div>
+    </div>
+</body>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var cont = document.getElementById("content");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("accordion-active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+                cont.classList.remove("content-accordion");
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+                cont.classList.add("content-accordion");
+            }
+        });
+    }
+</script>
+
+</html>
