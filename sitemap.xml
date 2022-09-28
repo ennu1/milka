@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>https://www.milkaih.com/index.html</loc>
+      <lastmod>2022-09-29</lastmod>
+      <changefreq>weekly</changefreq>
+   </url>
+   <url>
+      <loc>https://www.milkaih.com/research.html</loc>
+      <changefreq>weekly</changefreq>
+   </url>
+   <url>
+      <loc>https://www.milkaih.com/teaching.html</loc>
+      <lastmod>2022-09-29</lastmod>
+      <changefreq>weekly</changefreq>
+   </url>
+   <url>
+      <loc>https://www.milkaih.com/socialImpact.html</loc>
+      <lastmod>22022-09-29</lastmod>
+      <changefreq>weekly</changefreq>
+   </url>
+   <url>
+      <loc>https://www.milkaih.com/contact.html</loc>
+      <lastmod>2022-09-29</lastmod>
+      <changefreq>weekly</changefreq>
+</urlset>
