@@ -165,6 +165,9 @@ body {
   }
 
 @media only screen and (max-width: 1130px) {
+  .container {
+    width: 500px;
+  }
   .navigation-tab {
     font-size: 12px;
   }
