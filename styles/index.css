@@ -184,4 +184,7 @@ body {
       mix-blend-mode: multiply;
       object-fit: cover;
   }
+  .contact {
+    padding: 50px 0 0 30px;
+  }
 }
